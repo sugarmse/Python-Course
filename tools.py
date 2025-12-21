@@ -6,6 +6,7 @@ bad_approach = user_name + ' is ' + str(user_age) + ' years old.'  #bad approach
 print(user_information)
 
 # Single line if statements
-user_age = 20
-user_status = "Adult" if user_age >18 else "Child"
-print(user_status)
+# user_age = 20
+# user_status = "Adult" if user_age >18 else "Child"
+# print(user_status)
+print(f"{user_name} is an {'Adult' if user_age >18 else 'Child'}")
