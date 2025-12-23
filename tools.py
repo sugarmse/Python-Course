@@ -10,3 +10,12 @@ print(user_information)
 # user_status = "Adult" if user_age >18 else "Child"
 # print(user_status)
 print(f"{user_name} is an {'Adult' if user_age >18 else 'Child'}")
+
+#List comprehension
+simple_list = [f'{j}{i}' for i in range(0,11,1) for j in ('a','b','c') if j == 'a']
+print(simple_list)
+
+#lambda functions
+def double_value(num):
+    return num*2
+print(double_value(10))
