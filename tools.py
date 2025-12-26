@@ -11,11 +11,13 @@ print(user_information)
 # print(user_status)
 print(f"{user_name} is an {'Adult' if user_age >18 else 'Child'}")
 
-#List comprehension
+# List Comprehensions
 simple_list = [f'{j}{i}' for i in range(0,11,1) for j in ('a','b','c') if j == 'a']
 print(simple_list)
 
-#lambda functions
+# lambda functions
 def double_value(num):
     return num*2
 print(double_value(10))
+
+print("Squares of even numbers from 0 to 9:")

@@ -17,5 +17,5 @@
 print("Hypotenuse Calculator")
 length = float(input('Enter the length : '))
 breadth = float(input('Enter the breadth : '))
-hypotenuse = float((pow(length, 2) + pow(breadth, 2))**(0.5))
+hypotenuse = float((length**2 + pow(breadth, 2))**(0.5))
 print("The hypotenuse is : ", hypotenuse)
