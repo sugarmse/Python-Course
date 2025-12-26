@@ -20,4 +20,3 @@ def double_value(num):
     return num*2
 print(double_value(10))
 
-print("Squares of even numbers from 0 to 9:")
