@@ -15,6 +15,7 @@ print(f"{user_name} is an {'Adult' if user_age >18 else 'Child'}")
 simple_list = [f'{j}{i}' for i in range(0,11,1) for j in ('a','b','c') if j == 'a']
 print(simple_list)
 print(simple_list)
+print(simple_list)
 
 # lambda functions
 def double_value(num):
